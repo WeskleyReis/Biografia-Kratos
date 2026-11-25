@@ -263,6 +263,8 @@ section {
   border: none;
   outline: none;
   border-radius: 12px;
+
+  transition: ease-in-out 200ms;
 }
 
 .video a {
@@ -276,6 +278,10 @@ section {
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
+}
+
+.video button:hover {
+  transform: scale(1.02);
 }
 
 /* Notebooks menores */
